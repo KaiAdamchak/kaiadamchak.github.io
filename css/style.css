@@ -1,0 +1,138 @@
+/* General styles - put these straight into your stylesheet */
+
+/*general document style*/
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+
+/*card container style*/
+.card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+/*header/footer style*/
+.card header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+
+.card header h2{
+    margin: 0em;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.card footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }  
+
+.card footer p{
+    margin: 0em;
+    font-size:1.5em;
+    line-height: 2em;
+}
+
+.card header,footer {
+    height: 3em;
+    padding: 1em;
+}
+
+/*main content style*/
+.card article{
+    height: 12em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+.card article img {
+    float: right;
+    max-height: 100%;
+    height: 12em;
+  }
+
+.card article p{
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: 0em;
+    font-size: 1em;
+    line-height: 1.15em;
+    color:whitesmoke;
+}
+
+/*card 2*/
+
+.card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: orange;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+/*header/footer style*/
+.card2 header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+
+.card2 header h2{
+    margin: 0em;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 65);
+    line-height: 1.5em;
+}
+
+.card2 footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }  
+
+.card2 footer p{
+    margin: 0em;
+    font-size:1.5em;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card2 header,footer {
+    height: 3em;
+    padding: 1em;
+}
+
+/*main content style*/
+.card2 article{
+    height: 12em;
+    background-color: rgba(20, 0, 147, 0.3);
+  }
+
+.card2 article img {
+    float: right;
+    padding-right: 2em;
+    max-height: 100%;
+    height: 12em;
+  }
+
+.card2 article p{
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: 0em;
+    font-size: 1em;
+    line-height: 1.15em;
+    color:whitesmoke;
+}
+  
+  
