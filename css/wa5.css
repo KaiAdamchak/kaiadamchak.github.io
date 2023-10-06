@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background: white;
+    background: url('../img/drumcorp.jpeg');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay3{
+    background-image: url('../img/dcilogo.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    width: 30%;
+    height: 55%;
+}
+
+.overlay1{
+    background-color:blueviolet;
+    position:absolute;
+    top: 3em;
+    left: 50%;
+    width: 50%;
+    height: 4em;
+}
+
+.overlay1 h1{
+    position:absolute;
+    left: 2em;
+    height: 2.5em;
+    color:white;
+}
+
+.overlay2{
+    background-color:yellow;
+    position:absolute;
+    top: 7em;
+    right: 0%;
+    width: 30%;
+    height: 3.5em;
+}
+
+.overlay2 h3{
+    position:absolute;
+    left: 2em;
+    color:black;
+}
