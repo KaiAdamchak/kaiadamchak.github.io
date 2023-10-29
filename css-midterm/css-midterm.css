@@ -51,7 +51,7 @@
         width:30%;
         text-align: left;
         color:#000435;
-        font-size: 120%;
+        font-size: 100%;
         padding: 10px;
     }
 
@@ -65,7 +65,7 @@
         position:absolute;
         width: 40%;
         display: flex;
-        top: 35%;
+        top: 38%;
         left: 25%;
         flex-direction: column;
     }
