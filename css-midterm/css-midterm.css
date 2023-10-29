@@ -130,14 +130,10 @@
     }
 
     .dates p{
-        display: none;
-    }
-
-    .dates:hover + .dates p{
-        display: block;
-        color:antiquewhite;
         font-size: 80%;
     }
+
+
 
 
     img{
@@ -257,6 +253,25 @@
         font-size: 16px;
     }
 
+    .dates{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dates h2{
+        font-size: 150%;
+    }
+
+    .dates h3{
+        font-size: 100%;
+    }
+
+    .dates h4{
+        font-size: 90%;
+    }
+
+
 
 
     .ticket{
@@ -277,26 +292,6 @@
 
     .ticket p:hover{
         color: white;
-    }
-
-
-
-    .dates{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .dates h2{
-        font-size: 130%;
-    }
-
-    .dates h3{
-        font-size: 100%;
-    }
-
-    .dates h4{
-        font-size: 100%;
     }
 
 
