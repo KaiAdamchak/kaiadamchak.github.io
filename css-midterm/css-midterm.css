@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 400px){
     body{
         background-color: #000435;
         color:white;
@@ -164,7 +164,7 @@
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
     body{
         background-color: #000435;
         color:white;
@@ -217,7 +217,7 @@
         width:30%;
         text-align: left;
         color:#000435;
-        font-size: 20px;
+        font-size: 12px;
         padding: 10px;
     }
 
