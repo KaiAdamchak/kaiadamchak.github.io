@@ -65,7 +65,7 @@
         position:absolute;
         width: 40%;
         display: flex;
-        top: 38%;
+        top: 35%;
         left: 25%;
         flex-direction: column;
     }
@@ -231,7 +231,7 @@
         position:absolute;
         width: 40%;
         display: flex;
-        top: 35%;
+        top: 40%;
         left: 25%;
         flex-direction: column;
     }
