@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA 10</title>
+</head>
+<body>
+    <div id="wirt" type="button">Wirt</div>
+    <div id="greg" type="button">Greg</div>
+
+    <script>
+        const wirt = document.getElementById("wirt");
+        const greg = document.getElementById("greg");
+
+        wirt.addEventListener('click', updateName);
+        greg.addEventListener('click', updateName);
+
+        function updateName() {
+            wirt.innerHTML = `<img src="../img/greg.jpeg" alt="wirt">`
+            greg.innerHTML = `<img src="../img/wirt.jpeg" alt="greg">`
+        }
+    </script>
+
+</body>
+</html>

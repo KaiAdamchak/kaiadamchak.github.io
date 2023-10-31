@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+</style>
+</head>
+<body>
+    <button type="button">Player 1: Chris</button>
+    <div id="press" type="button">Press Me</div>
+
+
+
+    <script>
+        const button = document.querySelector("button");
+        const press = document.getElementbyID("press");
+
+        button.addEventListener('click', updateName);
+        press.addEventListener('click',updateName);
+
+        function updateName() {
+            //let name = prompt("Enter a new name");
+            let name = 10;
+            console.log("the function ran correctly")
+            console.log(name);
+            //button.textContent = `Player 1: ${name}`;
+            press.innerHTML = `<hi>Hello</h1>`
+        }
+
+    </script>
+</body>
+</html>
