@@ -1,0 +1,31 @@
+body {
+    font-family: helvetica, sans-serif;
+    width: 80%;
+    background: #294C60;
+    color: #FFC49B
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  div {
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: white;
+    color: #001B2E;
+    padding: 10px;
+    visibility: hidden;
+  }
+
+  button{
+    background: #FFEFD3;
+    color: #001B2E;
+  }
