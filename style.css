@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: left;
     padding: 2vw;
     background-color: white;
@@ -11,6 +12,7 @@ body{
 .left{
     position: absolute;
     display: flex;
+    flex: 25%;
     flex-direction: column;
     float: left;
 }
@@ -22,7 +24,7 @@ h3{
 nav{
     display:flex;
     flex-direction: column;
-    width: 15vw;
+    width: 25%;
     height: 100%;
 }
 nav a{
@@ -37,13 +39,17 @@ nav a:hover{
 }
 .content{
     position: absolute;
-    display: flex;
+    display: wrap;
     flex-direction: column;
-    width: 80%;
+    width: 75%;
     top: 20%;
     left: 20%;
-    align-items: left;
-    padding: 0%;
+    padding: 20px;
+}
+
+.profilepic{
+    flex: 80%;
+    vertical-align: right;
 }
 
 .row {
@@ -54,13 +60,29 @@ nav a:hover{
   
   /* Create four equal columns that sits next to each other */
   .column {
-    flex: 28%;
-    max-width: 28%;
-    padding: 0 4px;
+    flex: 29%;
+    max-width: 29%;
+    padding: 0 6px;
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+  }
+
+  .catalog{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    line-height: 28px;
+  }
+
+  .content a:hover{
+    color: orange;
+  }
+
+  .content nav a{
+    text-align: center;
+    padding: 10px;
   }
