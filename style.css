@@ -26,6 +26,7 @@ h3{
 nav{
     display:flex;
     flex-direction: column;
+    margin-top: 20px;
     width: 30%;
     height: 100%;
 }
@@ -51,6 +52,26 @@ nav a:hover{
     left: 20%;
     padding: 20px;
 }
+
+/* Home */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column {
+    flex: 29%;
+    max-width: 29%;
+    padding: 0 6px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
 
 /* About */
 .about {
@@ -82,25 +103,12 @@ h4{
     color: darkolivegreen;
 }
 
+.thankyou{
+    float: right;
+    padding: 4%;
+}
+
 /* Projects */
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-.column {
-    flex: 29%;
-    max-width: 29%;
-    padding: 0 6px;
-  }
-  
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
 
 .content a:hover{
     color: orange;
