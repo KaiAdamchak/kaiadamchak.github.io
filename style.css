@@ -123,6 +123,16 @@ nav a:hover{
   }
 
   /* Blog */
-  .blog h3{
+.blog h3{
     color:#e08219
+  }
+
+  /* Content */
+.email h3{
+    color:#e08219
+}
+
+.email{
+    position: flex;
+    flex-direction: column;
   }
