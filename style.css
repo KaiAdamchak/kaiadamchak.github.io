@@ -4,9 +4,21 @@ body{
     flex-wrap: wrap;
     align-items: left;
     padding: 2vw;
-    background-color: white;
+    background-color: #efeeee;
     color:#251605;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #e08219;
+}
+
+h3{
+    color: #59a3c7;
+}
+
+h4{
+    color: #e08219;
 }
 
 /* Left Side */
@@ -17,10 +29,6 @@ body{
     flex: 30%;
     flex-direction: column;
     float: left;
-}
-
-h3{
-    color: orange;
 }
 
 nav{
@@ -38,7 +46,7 @@ nav a{
 }
 
 nav a:hover{
-    color: orange;
+    color: #e08219;
 }
 
 /* Right Side */
@@ -99,22 +107,22 @@ nav a:hover{
     line-height: 28px;
   }
 
-h4{
-    color: darkolivegreen;
-}
-
 .thankyou{
     float: right;
-    padding: 4%;
 }
 
 /* Projects */
 
 .content a:hover{
-    color: orange;
+    color: #e08219;
   }
 
 .content nav a{
     text-align: center;
     padding: 10px;
+  }
+
+  /* Blog */
+  .blog h3{
+    color:#e08219
   }
