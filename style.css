@@ -4,9 +4,9 @@ body{
     flex-wrap: wrap;
     align-items: left;
     padding: 2vw;
-    background-color: #efeeee;
+    background-color: #fffaf1;
     color:#251605;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h2{
@@ -19,6 +19,11 @@ h3{
 
 h4{
     color: #e08219;
+}
+
+h5{
+    color: #e08219;
+    font-size: medium;
 }
 
 /* Left Side */
@@ -118,9 +123,26 @@ nav a:hover{
   }
 
 .content nav a{
-    text-align: center;
+    text-align: left;
     padding: 10px;
   }
+
+.column h4{
+    color:#59a3c7;
+}
+
+.columnlist{
+    display:flex;
+    flex-direction: column;
+}
+
+.clientwork{
+    display:flex;
+    flex-direction: column;
+    background-image: url('/portfolioimg/openmic.png');
+}
+
+
 
   /* Blog */
 .blog h3{
