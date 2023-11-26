@@ -139,7 +139,11 @@ nav a:hover{
 .clientwork{
     display:flex;
     flex-direction: column;
+    padding-bottom: 45%;
     background-image: url('/portfolioimg/openmic.png');
+    background-size: 40%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 
