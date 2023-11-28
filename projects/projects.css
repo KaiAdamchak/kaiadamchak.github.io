@@ -3,10 +3,15 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: left;
-    padding: 2vw;
-    background-color: white;
-    color:#efeeee;
+    margin-top: 10vw;
+    padding-left: 2vw;
+    background-color: #efeeee;
+    color:black;
     font-family: 'Noto Sans', sans-serif;
+    background-image: url('/portfolioimg/logo.png');
+    background-position: 1vw 1vh;
+    background-size: 20%;
+    background-repeat: no-repeat;
 }
 
 h2{
