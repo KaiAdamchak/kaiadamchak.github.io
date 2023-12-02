@@ -4,7 +4,7 @@ body{
     flex-wrap: wrap;
     align-items: left;
     padding: 2vw;
-    background-color: #fffaf1;
+    background-color: #fffff0;
     color:#251605;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -146,7 +146,15 @@ nav a:hover{
     background-repeat: no-repeat;
 }
 
+  /* Shows */
+.shows{
+    display:flex;
+    flex-direction: column;
+}
 
+.shows a{
+    padding: 5px;
+}
 
   /* Blog */
 .blog h3{

@@ -5,11 +5,11 @@ body{
     align-items: left;
     margin-top: 10vw;
     padding-left: 2vw;
-    background-color: #efeeee;
+    background-color: #fffff0;
     color:black;
     font-family: 'Noto Sans', sans-serif;
     background-image: url('/portfolioimg/logo.png');
-    background-position: 1vw 1vh;
+    background-position: 3vw 3vh;
     background-size: 20%;
     background-repeat: no-repeat;
 }
