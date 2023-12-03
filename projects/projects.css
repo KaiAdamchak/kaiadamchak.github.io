@@ -5,7 +5,7 @@ body{
     align-items: left;
     margin-top: 10vw;
     padding-left: 2vw;
-    background-color: #fffff0;
+    background-color: #f9f6ee;
     color:black;
     font-family: 'Noto Sans', sans-serif;
     background-image: url('/portfolioimg/logo.png');
@@ -19,17 +19,24 @@ h2{
     font-size: xx-large;
 }
 
+h3{
+  color: #59a3c7;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
   .column {
     flex: 48%;
     max-width: 48%;
     padding-left: 18px;
+  }
+
+  .column p{
+    padding-right: 10%;
   }
 
   .column1 {
