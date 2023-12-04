@@ -146,6 +146,10 @@ nav a:hover{
     background-repeat: no-repeat;
 }
 
+.clientwork a{
+    padding: 5px;
+}
+
   /* Shows */
 .shows{
     display:flex;

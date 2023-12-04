@@ -39,6 +39,10 @@ h3{
     padding-right: 10%;
   }
 
+  .column img{
+    max-width: 40%;
+  }
+
   .column1 {
     flex: 22%;
     max-width: 22%;
