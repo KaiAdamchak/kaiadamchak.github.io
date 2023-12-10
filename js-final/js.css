@@ -14,7 +14,7 @@ body{
 }
 
 .right h3{
-    padding-left: 15px;
+    padding-left: 5px;
     font-size: xx-large;
 }
 
@@ -23,7 +23,9 @@ body{
     flex-wrap: wrap;
   }
 
-.column {
+.column button {
+    display: flex;
+    flex-direction: column;
     position: relative;
   }
   
