@@ -15,7 +15,7 @@ function getNumber() {
 }
 
 function getRandomInt(min, max) {
-    var rand_int= Math.floor(Math.random() * (max - min) + min);
+    var rand_int = Math.floor(Math.random() * (max - min) + min);
     return rand_int;
 }
 
