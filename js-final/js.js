@@ -22,7 +22,7 @@ function getRandomInt(min, max) {
 function displayNumber(myNumber) {
     let currentNumber = document.getElementById('js-number').innerText;
 
-    if (myNumber !== null && currentNumber.length < 9) {
+    if (myNumber !== null && currentNumber.length < 10) {
         let newNumber = currentNumber + myNumber;
         document.getElementById('js-number').innerText = newNumber;
     }
