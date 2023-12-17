@@ -27,10 +27,18 @@ function displayNumber(myNumber) {
         document.getElementById('js-number').innerText = newNumber;
     }
 }
-
 /*CLEAR*/
 function clear()
 {   
    document.getElementById("#js-number").reset();
    console.clear();
+}
+
+/*SUBMIT*/
+function submit() {
+    let currentNumber = document.getElementById('js-number').innerText;
+    if (currentNumber.length === 10) {
+        var message = 'Theres no way thats actually your phone number but nice try...';
+        alert(message);
+    }
 }
