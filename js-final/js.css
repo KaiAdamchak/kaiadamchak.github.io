@@ -7,7 +7,6 @@ body{
 
 .right{
     position: absolute;
-    display: wrap;
     flex-direction: column;
     width: 25%;
     top: 25%;
