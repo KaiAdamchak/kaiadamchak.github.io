@@ -29,34 +29,45 @@ h3{
     padding: 0 4px;
   }
   
-  .column {
+.column {
     flex: 48%;
     max-width: 48%;
     padding-left: 18px;
   }
 
-  .column p{
+.column p{
     padding-right: 10%;
   }
 
-  .column img{
+.column img{
     max-width: 40%;
   }
 
-  .column1 {
+.column1 {
     flex: 22%;
     max-width: 22%;
     padding: 0 6px;
   }
   
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
   }
 
-  .column1 img {
+.column1 img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+  }
+
+.column2 {
+    flex: 45%;
+    max-width: 45%;
+  }
+
+.column2 img {
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 20px;
   }
