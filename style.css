@@ -150,6 +150,12 @@ nav a:hover{
     padding: 5px;
 }
 
+/*resume*/
+.resume{
+    position:absolute;
+    align-items: center;
+}
+
   /* Shows */
 .shows{
     display:flex;
